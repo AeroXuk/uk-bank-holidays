@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Recurring bank holiday rules",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": ["rule_id", "holiday_key", "name", "valid_from_year", "valid_to_year", "rule_type", "parameters",
+                 "england_and_wales", "scotland", "northern_ireland", "source_ids", "verified"],
+    "properties": {
+      "rule_id": {"type": "string", "pattern": "^[a-z0-9_]+$"},
+      "holiday_key": {"type": "string", "pattern": "^[a-z0-9_]+$"},
+      "name": {"type": "string", "minLength": 1},
+      "valid_from_year": {"type": ["integer", "null"], "description": "null = time immemorial"},
+      "valid_to_year": {"type": ["integer", "null"], "description": "null = onwards"},
+      "rule_type": {"enum": ["fixed_date", "nth_weekday", "last_weekday", "easter_offset", "weekday_after_last_weekday"]},
+      "parameters": {"type": "object"},
+      "england_and_wales": {"type": "boolean"},
+      "scotland": {"type": "boolean"},
+      "northern_ireland": {"type": "boolean"},
+      "notes": {"type": ["string", "null"]},
+      "source_ids": {"type": "array", "items": {"type": "string"}},
+      "verified": {"type": "boolean"}
+    }
+  }
+}

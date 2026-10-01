@@ -1,0 +1,62 @@
+[
+  {
+    "rule_id": "may_day",
+    "year": 1995,
+    "date": "1995-05-08",
+    "reason": "Moved from 1 May to mark the 50th Anniversary of VE Day",
+    "notes": "Transcribed from the blog post.",
+    "source_ids": [
+      "bfda_1971",
+      "aeroxuk_blog_post"
+    ],
+    "verified": false
+  },
+  {
+    "rule_id": "spring_bank_holiday",
+    "year": 2002,
+    "date": "2002-06-04",
+    "reason": "Moved from 27 May due to the Golden Jubilee of Queen Elizabeth II",
+    "notes": "Transcribed from the blog post.",
+    "source_ids": [
+      "bfda_1971",
+      "aeroxuk_blog_post"
+    ],
+    "verified": false
+  },
+  {
+    "rule_id": "spring_bank_holiday",
+    "year": 2012,
+    "date": "2012-06-04",
+    "reason": "Moved from 28 May for the Diamond Jubilee of Queen Elizabeth II",
+    "notes": "Added by the maintainer from general knowledge; confirm against a primary source. Not in the repository copy of the blog post.",
+    "source_ids": [
+      "bfda_1971",
+      "aeroxuk_blog_post"
+    ],
+    "verified": false
+  },
+  {
+    "rule_id": "may_day",
+    "year": 2020,
+    "date": "2020-05-08",
+    "reason": "Moved from 4 May to mark the 75th Anniversary of VE Day",
+    "notes": "Added by the maintainer from general knowledge; confirm against a primary source. Not in the repository copy of the blog post.",
+    "source_ids": [
+      "bfda_1971",
+      "aeroxuk_blog_post"
+    ],
+    "verified": false
+  },
+  {
+    "rule_id": "spring_bank_holiday",
+    "year": 2022,
+    "date": "2022-06-02",
+    "reason": "Moved from 30 May for the Platinum Jubilee of Queen Elizabeth II",
+    "notes": "Added by the maintainer from general knowledge; confirm against a primary source. Not in the repository copy of the blog post.",
+    "source_ids": [
+      "bfda_1971",
+      "aeroxuk_blog_post"
+    ],
+    "verified": false
+  }
+]

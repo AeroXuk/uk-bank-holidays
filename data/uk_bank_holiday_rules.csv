@@ -1,0 +1,23 @@
+rule_id,holiday_key,name,valid_from_year,valid_to_year,rule_type,parameters,england_and_wales,scotland,northern_ireland,notes,source_ids,verified
+new_years_day_1871_1973,new_years_day,New Year's Day,1871,1973,fixed_date,"{""day"":1,""month"":1}",false,true,false,,bfda_1971_schedule_1;aeroxuk_blog_post,false
+new_years_day,new_years_day,New Year's Day,1974,,fixed_date,"{""day"":1,""month"":1}",true,true,true,,bfda_1971_schedule_1;aeroxuk_blog_post,false
+new_year_holiday,new_year_holiday,New Year Holiday,1973,,fixed_date,"{""day"":2,""month"":1}",false,true,false,,bfda_1971_schedule_1;aeroxuk_blog_post,false
+st_patricks_day,st_patricks_day,St. Patrick's Day,1903,,fixed_date,"{""day"":17,""month"":3}",false,false,true,,bfda_1971_schedule_1;aeroxuk_blog_post,false
+good_friday_to_1870,good_friday,Good Friday,,1870,easter_offset,"{""days"":-2}",true,false,true,Valid from time immemorial.,bfda_1971_schedule_1;aeroxuk_blog_post,false
+good_friday,good_friday,Good Friday,1871,,easter_offset,"{""days"":-2}",true,true,true,,bfda_1971_schedule_1;aeroxuk_blog_post,false
+easter_monday,easter_monday,Easter Monday,1871,,easter_offset,"{""days"":1}",true,false,true,,bfda_1971_schedule_1;aeroxuk_blog_post,false
+whit_monday,whit_monday,Whit Monday,1871,1970,easter_offset,"{""days"":50}",true,false,true,Replaced by the Spring Bank Holiday. Between 1965 and 1970 this may have been moved to the last Monday of May (not modelled; needs a source).,bfda_1971_schedule_1;aeroxuk_blog_post,false
+may_day_1871_1977,may_day,May Day Bank Holiday,1871,1977,nth_weekday,"{""month"":5,""n"":1,""weekday"":""monday""}",false,true,false,,bfda_1971_schedule_1;aeroxuk_blog_post,false
+may_day,may_day,May Day Bank Holiday,1978,,nth_weekday,"{""month"":5,""n"":1,""weekday"":""monday""}",true,true,true,,bfda_1971_schedule_1;aeroxuk_blog_post,false
+spring_bank_holiday_1971_1977,spring_bank_holiday,Spring Bank Holiday,1971,1977,last_weekday,"{""month"":5,""weekday"":""monday""}",true,false,true,,bfda_1971_schedule_1;aeroxuk_blog_post,false
+spring_bank_holiday,spring_bank_holiday,Spring Bank Holiday,1978,,last_weekday,"{""month"":5,""weekday"":""monday""}",true,true,true,,bfda_1971_schedule_1;aeroxuk_blog_post,false
+battle_of_the_boyne,battle_of_the_boyne,Battle of the Boyne,1926,,fixed_date,"{""day"":12,""month"":7}",false,false,true,,bfda_1971_schedule_1;aeroxuk_blog_post,false
+august_bank_holiday_1871_1964,august_bank_holiday,August Bank Holiday,1871,1964,nth_weekday,"{""month"":8,""n"":1,""weekday"":""monday""}",true,true,true,,bfda_1971_schedule_1;aeroxuk_blog_post,false
+august_bank_holiday_scotland,august_bank_holiday,August Bank Holiday,1965,,nth_weekday,"{""month"":8,""n"":1,""weekday"":""monday""}",false,true,false,Continues unchanged for Scotland.,bfda_1971_schedule_1;aeroxuk_blog_post,false
+august_bank_holiday_1965_1970,august_bank_holiday,August Bank Holiday,1965,1970,weekday_after_last_weekday,"{""after_weekday"":""saturday"",""month"":8,""weekday"":""monday""}",true,false,true,"First Monday after the last Saturday of August. Replaced by the Late Summer Bank Holiday in England, Wales and Northern Ireland.",bfda_1971_schedule_1;aeroxuk_blog_post,false
+late_summer_bank_holiday,late_summer_bank_holiday,Late Summer Bank Holiday,1971,,last_weekday,"{""month"":8,""weekday"":""monday""}",true,false,true,,bfda_1971_schedule_1;aeroxuk_blog_post,false
+st_andrews_day,st_andrews_day,St. Andrew's Day,2007,,fixed_date,"{""day"":30,""month"":11}",false,true,false,,bfda_1971_schedule_1;aeroxuk_blog_post,false
+christmas_day_to_1870,christmas_day,Christmas Day,,1870,fixed_date,"{""day"":25,""month"":12}",true,false,true,Valid from time immemorial.,bfda_1971_schedule_1;aeroxuk_blog_post,false
+christmas_day,christmas_day,Christmas Day,1871,,fixed_date,"{""day"":25,""month"":12}",true,true,true,,bfda_1971_schedule_1;aeroxuk_blog_post,false
+boxing_day_1871_1973,boxing_day,Boxing Day,1871,1973,fixed_date,"{""day"":26,""month"":12}",true,false,true,,bfda_1971_schedule_1;aeroxuk_blog_post,false
+boxing_day,boxing_day,Boxing Day,1974,,fixed_date,"{""day"":26,""month"":12}",true,true,true,,bfda_1971_schedule_1;aeroxuk_blog_post,false

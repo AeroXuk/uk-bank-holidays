@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Citations, keyed by source id",
+  "type": "object",
+  "propertyNames": {"pattern": "^[a-z0-9_]+$"},
+  "additionalProperties": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": ["title", "publisher", "url", "archive_url", "accessed"],
+    "properties": {
+      "title": {"type": "string", "minLength": 1},
+      "publisher": {"type": "string"},
+      "url": {"type": ["string", "null"], "pattern": "^https?://"},
+      "archive_url": {"type": ["string", "null"], "pattern": "^https://web\\.archive\\.org/web/"},
+      "accessed": {"type": ["string", "null"], "pattern": "^\\d{4}-\\d{2}-\\d{2}$"}
+    }
+  }
+}

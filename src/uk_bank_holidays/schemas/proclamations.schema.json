@@ -1,0 +1,23 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Royal proclamations of additional or moved bank holidays",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": ["proclamation_id", "date", "name", "reason", "england_and_wales", "scotland", "northern_ireland",
+                 "source_ids", "verified"],
+    "properties": {
+      "proclamation_id": {"type": "string", "pattern": "^[a-z0-9_]+$"},
+      "date": {"type": "string", "format": "date", "pattern": "^\\d{4}-\\d{2}-\\d{2}$"},
+      "name": {"type": "string", "minLength": 1},
+      "reason": {"type": "string", "minLength": 1},
+      "england_and_wales": {"type": "boolean"},
+      "scotland": {"type": "boolean"},
+      "northern_ireland": {"type": "boolean"},
+      "notes": {"type": ["string", "null"]},
+      "source_ids": {"type": "array", "items": {"type": "string"}},
+      "verified": {"type": "boolean"}
+    }
+  }
+}

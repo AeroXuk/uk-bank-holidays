@@ -1,0 +1,164 @@
+[
+  {
+    "proclamation_id": "sterling_crisis_1968",
+    "date": "1968-03-15",
+    "name": "Emergency Bank Holiday",
+    "reason": "Emergency Bank Holiday to close the London Gold Market during the Sterling Crisis of 1968",
+    "england_and_wales": true,
+    "scotland": true,
+    "northern_ireland": true,
+    "notes": "Transcribed from the blog post. Region scope assumed to be the whole UK; needs a primary source (Royal Proclamation / London Gazette).",
+    "source_ids": [
+      "bfda_1971",
+      "aeroxuk_blog_post"
+    ],
+    "verified": false
+  },
+  {
+    "proclamation_id": "princess_anne_wedding_1973",
+    "date": "1973-11-14",
+    "name": "Royal Wedding",
+    "reason": "The Wedding of Princess Anne and Captain Mark Phillips at Westminster Abbey",
+    "england_and_wales": true,
+    "scotland": true,
+    "northern_ireland": true,
+    "notes": "Transcribed from the blog post. Region scope assumed to be the whole UK; needs a primary source (Royal Proclamation / London Gazette).",
+    "source_ids": [
+      "bfda_1971",
+      "aeroxuk_blog_post"
+    ],
+    "verified": false
+  },
+  {
+    "proclamation_id": "silver_jubilee_1977",
+    "date": "1977-06-07",
+    "name": "Silver Jubilee",
+    "reason": "The Silver Jubilee of Queen Elizabeth II",
+    "england_and_wales": true,
+    "scotland": true,
+    "northern_ireland": true,
+    "notes": "Transcribed from the blog post. Region scope assumed to be the whole UK; needs a primary source (Royal Proclamation / London Gazette).",
+    "source_ids": [
+      "bfda_1971",
+      "aeroxuk_blog_post"
+    ],
+    "verified": false
+  },
+  {
+    "proclamation_id": "royal_wedding_1981",
+    "date": "1981-07-29",
+    "name": "Royal Wedding",
+    "reason": "The Wedding of Prince Charles and Lady Diana Spencer at St. Paul's Cathedral",
+    "england_and_wales": true,
+    "scotland": true,
+    "northern_ireland": true,
+    "notes": "Transcribed from the blog post. Region scope assumed to be the whole UK; needs a primary source (Royal Proclamation / London Gazette).",
+    "source_ids": [
+      "bfda_1971",
+      "aeroxuk_blog_post"
+    ],
+    "verified": false
+  },
+  {
+    "proclamation_id": "millennium_eve_1999",
+    "date": "1999-12-31",
+    "name": "Millennium Eve",
+    "reason": "Preparation for the festivities to mark the arrival of the new millennium",
+    "england_and_wales": true,
+    "scotland": true,
+    "northern_ireland": true,
+    "notes": "Transcribed from the blog post. Region scope assumed to be the whole UK; needs a primary source (Royal Proclamation / London Gazette).",
+    "source_ids": [
+      "bfda_1971",
+      "aeroxuk_blog_post"
+    ],
+    "verified": false
+  },
+  {
+    "proclamation_id": "golden_jubilee_2002",
+    "date": "2002-06-03",
+    "name": "Golden Jubilee",
+    "reason": "The Golden Jubilee of Queen Elizabeth II",
+    "england_and_wales": true,
+    "scotland": true,
+    "northern_ireland": true,
+    "notes": "Transcribed from the blog post. Region scope assumed to be the whole UK; needs a primary source (Royal Proclamation / London Gazette).",
+    "source_ids": [
+      "bfda_1971",
+      "aeroxuk_blog_post"
+    ],
+    "verified": false
+  },
+  {
+    "proclamation_id": "royal_wedding_2011",
+    "date": "2011-04-29",
+    "name": "Royal Wedding",
+    "reason": "The Wedding of Prince William and Kate Middleton",
+    "england_and_wales": true,
+    "scotland": true,
+    "northern_ireland": true,
+    "notes": "Transcribed from the blog post. Region scope assumed to be the whole UK; needs a primary source (Royal Proclamation / London Gazette).",
+    "source_ids": [
+      "bfda_1971",
+      "aeroxuk_blog_post"
+    ],
+    "verified": false
+  },
+  {
+    "proclamation_id": "diamond_jubilee_2012",
+    "date": "2012-06-05",
+    "name": "Diamond Jubilee",
+    "reason": "The Diamond Jubilee of Queen Elizabeth II",
+    "england_and_wales": true,
+    "scotland": true,
+    "northern_ireland": true,
+    "notes": "Transcribed from the blog post. Region scope assumed to be the whole UK; needs a primary source (Royal Proclamation / London Gazette).",
+    "source_ids": [
+      "bfda_1971",
+      "aeroxuk_blog_post"
+    ],
+    "verified": false
+  },
+  {
+    "proclamation_id": "platinum_jubilee_2022",
+    "date": "2022-06-03",
+    "name": "Platinum Jubilee",
+    "reason": "The Platinum Jubilee of Queen Elizabeth II",
+    "england_and_wales": true,
+    "scotland": true,
+    "northern_ireland": true,
+    "notes": "Added by the maintainer from general knowledge; not in the repository copy of the blog post. Region scope assumed to be the whole UK; needs a primary source (Royal Proclamation / London Gazette).",
+    "source_ids": [
+      "bfda_1971"
+    ],
+    "verified": false
+  },
+  {
+    "proclamation_id": "state_funeral_2022",
+    "date": "2022-09-19",
+    "name": "State Funeral of Queen Elizabeth II",
+    "reason": "The State Funeral of Queen Elizabeth II",
+    "england_and_wales": true,
+    "scotland": true,
+    "northern_ireland": true,
+    "notes": "Added by the maintainer from general knowledge; not in the repository copy of the blog post. Region scope assumed to be the whole UK; needs a primary source (Royal Proclamation / London Gazette).",
+    "source_ids": [
+      "bfda_1971"
+    ],
+    "verified": false
+  },
+  {
+    "proclamation_id": "coronation_2023",
+    "date": "2023-05-08",
+    "name": "Coronation of King Charles III",
+    "reason": "The Coronation of King Charles III",
+    "england_and_wales": true,
+    "scotland": true,
+    "northern_ireland": true,
+    "notes": "Added by the maintainer from general knowledge; not in the repository copy of the blog post. Region scope assumed to be the whole UK; needs a primary source (Royal Proclamation / London Gazette).",
+    "source_ids": [
+      "bfda_1971"
+    ],
+    "verified": false
+  }
+]

@@ -1,0 +1,465 @@
+[
+  {
+    "rule_id": "new_years_day_1871_1973",
+    "holiday_key": "new_years_day",
+    "name": "New Year's Day",
+    "valid_from_year": 1871,
+    "valid_to_year": 1973,
+    "rule_type": "fixed_date",
+    "parameters": {
+      "month": 1,
+      "day": 1
+    },
+    "england_and_wales": false,
+    "scotland": true,
+    "northern_ireland": false,
+    "notes": null,
+    "source_ids": [
+      "bfda_1971_schedule_1",
+      "aeroxuk_blog_post"
+    ],
+    "verified": false
+  },
+  {
+    "rule_id": "new_years_day",
+    "holiday_key": "new_years_day",
+    "name": "New Year's Day",
+    "valid_from_year": 1974,
+    "valid_to_year": null,
+    "rule_type": "fixed_date",
+    "parameters": {
+      "month": 1,
+      "day": 1
+    },
+    "england_and_wales": true,
+    "scotland": true,
+    "northern_ireland": true,
+    "notes": null,
+    "source_ids": [
+      "bfda_1971_schedule_1",
+      "aeroxuk_blog_post"
+    ],
+    "verified": false
+  },
+  {
+    "rule_id": "new_year_holiday",
+    "holiday_key": "new_year_holiday",
+    "name": "New Year Holiday",
+    "valid_from_year": 1973,
+    "valid_to_year": null,
+    "rule_type": "fixed_date",
+    "parameters": {
+      "month": 1,
+      "day": 2
+    },
+    "england_and_wales": false,
+    "scotland": true,
+    "northern_ireland": false,
+    "notes": null,
+    "source_ids": [
+      "bfda_1971_schedule_1",
+      "aeroxuk_blog_post"
+    ],
+    "verified": false
+  },
+  {
+    "rule_id": "st_patricks_day",
+    "holiday_key": "st_patricks_day",
+    "name": "St. Patrick's Day",
+    "valid_from_year": 1903,
+    "valid_to_year": null,
+    "rule_type": "fixed_date",
+    "parameters": {
+      "month": 3,
+      "day": 17
+    },
+    "england_and_wales": false,
+    "scotland": false,
+    "northern_ireland": true,
+    "notes": null,
+    "source_ids": [
+      "bfda_1971_schedule_1",
+      "aeroxuk_blog_post"
+    ],
+    "verified": false
+  },
+  {
+    "rule_id": "good_friday_to_1870",
+    "holiday_key": "good_friday",
+    "name": "Good Friday",
+    "valid_from_year": null,
+    "valid_to_year": 1870,
+    "rule_type": "easter_offset",
+    "parameters": {
+      "days": -2
+    },
+    "england_and_wales": true,
+    "scotland": false,
+    "northern_ireland": true,
+    "notes": "Valid from time immemorial.",
+    "source_ids": [
+      "bfda_1971_schedule_1",
+      "aeroxuk_blog_post"
+    ],
+    "verified": false
+  },
+  {
+    "rule_id": "good_friday",
+    "holiday_key": "good_friday",
+    "name": "Good Friday",
+    "valid_from_year": 1871,
+    "valid_to_year": null,
+    "rule_type": "easter_offset",
+    "parameters": {
+      "days": -2
+    },
+    "england_and_wales": true,
+    "scotland": true,
+    "northern_ireland": true,
+    "notes": null,
+    "source_ids": [
+      "bfda_1971_schedule_1",
+      "aeroxuk_blog_post"
+    ],
+    "verified": false
+  },
+  {
+    "rule_id": "easter_monday",
+    "holiday_key": "easter_monday",
+    "name": "Easter Monday",
+    "valid_from_year": 1871,
+    "valid_to_year": null,
+    "rule_type": "easter_offset",
+    "parameters": {
+      "days": 1
+    },
+    "england_and_wales": true,
+    "scotland": false,
+    "northern_ireland": true,
+    "notes": null,
+    "source_ids": [
+      "bfda_1971_schedule_1",
+      "aeroxuk_blog_post"
+    ],
+    "verified": false
+  },
+  {
+    "rule_id": "whit_monday",
+    "holiday_key": "whit_monday",
+    "name": "Whit Monday",
+    "valid_from_year": 1871,
+    "valid_to_year": 1970,
+    "rule_type": "easter_offset",
+    "parameters": {
+      "days": 50
+    },
+    "england_and_wales": true,
+    "scotland": false,
+    "northern_ireland": true,
+    "notes": "Replaced by the Spring Bank Holiday. Between 1965 and 1970 this may have been moved to the last Monday of May (not modelled; needs a source).",
+    "source_ids": [
+      "bfda_1971_schedule_1",
+      "aeroxuk_blog_post"
+    ],
+    "verified": false
+  },
+  {
+    "rule_id": "may_day_1871_1977",
+    "holiday_key": "may_day",
+    "name": "May Day Bank Holiday",
+    "valid_from_year": 1871,
+    "valid_to_year": 1977,
+    "rule_type": "nth_weekday",
+    "parameters": {
+      "month": 5,
+      "weekday": "monday",
+      "n": 1
+    },
+    "england_and_wales": false,
+    "scotland": true,
+    "northern_ireland": false,
+    "notes": null,
+    "source_ids": [
+      "bfda_1971_schedule_1",
+      "aeroxuk_blog_post"
+    ],
+    "verified": false
+  },
+  {
+    "rule_id": "may_day",
+    "holiday_key": "may_day",
+    "name": "May Day Bank Holiday",
+    "valid_from_year": 1978,
+    "valid_to_year": null,
+    "rule_type": "nth_weekday",
+    "parameters": {
+      "month": 5,
+      "weekday": "monday",
+      "n": 1
+    },
+    "england_and_wales": true,
+    "scotland": true,
+    "northern_ireland": true,
+    "notes": null,
+    "source_ids": [
+      "bfda_1971_schedule_1",
+      "aeroxuk_blog_post"
+    ],
+    "verified": false
+  },
+  {
+    "rule_id": "spring_bank_holiday_1971_1977",
+    "holiday_key": "spring_bank_holiday",
+    "name": "Spring Bank Holiday",
+    "valid_from_year": 1971,
+    "valid_to_year": 1977,
+    "rule_type": "last_weekday",
+    "parameters": {
+      "month": 5,
+      "weekday": "monday"
+    },
+    "england_and_wales": true,
+    "scotland": false,
+    "northern_ireland": true,
+    "notes": null,
+    "source_ids": [
+      "bfda_1971_schedule_1",
+      "aeroxuk_blog_post"
+    ],
+    "verified": false
+  },
+  {
+    "rule_id": "spring_bank_holiday",
+    "holiday_key": "spring_bank_holiday",
+    "name": "Spring Bank Holiday",
+    "valid_from_year": 1978,
+    "valid_to_year": null,
+    "rule_type": "last_weekday",
+    "parameters": {
+      "month": 5,
+      "weekday": "monday"
+    },
+    "england_and_wales": true,
+    "scotland": true,
+    "northern_ireland": true,
+    "notes": null,
+    "source_ids": [
+      "bfda_1971_schedule_1",
+      "aeroxuk_blog_post"
+    ],
+    "verified": false
+  },
+  {
+    "rule_id": "battle_of_the_boyne",
+    "holiday_key": "battle_of_the_boyne",
+    "name": "Battle of the Boyne",
+    "valid_from_year": 1926,
+    "valid_to_year": null,
+    "rule_type": "fixed_date",
+    "parameters": {
+      "month": 7,
+      "day": 12
+    },
+    "england_and_wales": false,
+    "scotland": false,
+    "northern_ireland": true,
+    "notes": null,
+    "source_ids": [
+      "bfda_1971_schedule_1",
+      "aeroxuk_blog_post"
+    ],
+    "verified": false
+  },
+  {
+    "rule_id": "august_bank_holiday_1871_1964",
+    "holiday_key": "august_bank_holiday",
+    "name": "August Bank Holiday",
+    "valid_from_year": 1871,
+    "valid_to_year": 1964,
+    "rule_type": "nth_weekday",
+    "parameters": {
+      "month": 8,
+      "weekday": "monday",
+      "n": 1
+    },
+    "england_and_wales": true,
+    "scotland": true,
+    "northern_ireland": true,
+    "notes": null,
+    "source_ids": [
+      "bfda_1971_schedule_1",
+      "aeroxuk_blog_post"
+    ],
+    "verified": false
+  },
+  {
+    "rule_id": "august_bank_holiday_scotland",
+    "holiday_key": "august_bank_holiday",
+    "name": "August Bank Holiday",
+    "valid_from_year": 1965,
+    "valid_to_year": null,
+    "rule_type": "nth_weekday",
+    "parameters": {
+      "month": 8,
+      "weekday": "monday",
+      "n": 1
+    },
+    "england_and_wales": false,
+    "scotland": true,
+    "northern_ireland": false,
+    "notes": "Continues unchanged for Scotland.",
+    "source_ids": [
+      "bfda_1971_schedule_1",
+      "aeroxuk_blog_post"
+    ],
+    "verified": false
+  },
+  {
+    "rule_id": "august_bank_holiday_1965_1970",
+    "holiday_key": "august_bank_holiday",
+    "name": "August Bank Holiday",
+    "valid_from_year": 1965,
+    "valid_to_year": 1970,
+    "rule_type": "weekday_after_last_weekday",
+    "parameters": {
+      "month": 8,
+      "after_weekday": "saturday",
+      "weekday": "monday"
+    },
+    "england_and_wales": true,
+    "scotland": false,
+    "northern_ireland": true,
+    "notes": "First Monday after the last Saturday of August. Replaced by the Late Summer Bank Holiday in England, Wales and Northern Ireland.",
+    "source_ids": [
+      "bfda_1971_schedule_1",
+      "aeroxuk_blog_post"
+    ],
+    "verified": false
+  },
+  {
+    "rule_id": "late_summer_bank_holiday",
+    "holiday_key": "late_summer_bank_holiday",
+    "name": "Late Summer Bank Holiday",
+    "valid_from_year": 1971,
+    "valid_to_year": null,
+    "rule_type": "last_weekday",
+    "parameters": {
+      "month": 8,
+      "weekday": "monday"
+    },
+    "england_and_wales": true,
+    "scotland": false,
+    "northern_ireland": true,
+    "notes": null,
+    "source_ids": [
+      "bfda_1971_schedule_1",
+      "aeroxuk_blog_post"
+    ],
+    "verified": false
+  },
+  {
+    "rule_id": "st_andrews_day",
+    "holiday_key": "st_andrews_day",
+    "name": "St. Andrew's Day",
+    "valid_from_year": 2007,
+    "valid_to_year": null,
+    "rule_type": "fixed_date",
+    "parameters": {
+      "month": 11,
+      "day": 30
+    },
+    "england_and_wales": false,
+    "scotland": true,
+    "northern_ireland": false,
+    "notes": null,
+    "source_ids": [
+      "bfda_1971_schedule_1",
+      "aeroxuk_blog_post"
+    ],
+    "verified": false
+  },
+  {
+    "rule_id": "christmas_day_to_1870",
+    "holiday_key": "christmas_day",
+    "name": "Christmas Day",
+    "valid_from_year": null,
+    "valid_to_year": 1870,
+    "rule_type": "fixed_date",
+    "parameters": {
+      "month": 12,
+      "day": 25
+    },
+    "england_and_wales": true,
+    "scotland": false,
+    "northern_ireland": true,
+    "notes": "Valid from time immemorial.",
+    "source_ids": [
+      "bfda_1971_schedule_1",
+      "aeroxuk_blog_post"
+    ],
+    "verified": false
+  },
+  {
+    "rule_id": "christmas_day",
+    "holiday_key": "christmas_day",
+    "name": "Christmas Day",
+    "valid_from_year": 1871,
+    "valid_to_year": null,
+    "rule_type": "fixed_date",
+    "parameters": {
+      "month": 12,
+      "day": 25
+    },
+    "england_and_wales": true,
+    "scotland": true,
+    "northern_ireland": true,
+    "notes": null,
+    "source_ids": [
+      "bfda_1971_schedule_1",
+      "aeroxuk_blog_post"
+    ],
+    "verified": false
+  },
+  {
+    "rule_id": "boxing_day_1871_1973",
+    "holiday_key": "boxing_day",
+    "name": "Boxing Day",
+    "valid_from_year": 1871,
+    "valid_to_year": 1973,
+    "rule_type": "fixed_date",
+    "parameters": {
+      "month": 12,
+      "day": 26
+    },
+    "england_and_wales": true,
+    "scotland": false,
+    "northern_ireland": true,
+    "notes": null,
+    "source_ids": [
+      "bfda_1971_schedule_1",
+      "aeroxuk_blog_post"
+    ],
+    "verified": false
+  },
+  {
+    "rule_id": "boxing_day",
+    "holiday_key": "boxing_day",
+    "name": "Boxing Day",
+    "valid_from_year": 1974,
+    "valid_to_year": null,
+    "rule_type": "fixed_date",
+    "parameters": {
+      "month": 12,
+      "day": 26
+    },
+    "england_and_wales": true,
+    "scotland": true,
+    "northern_ireland": true,
+    "notes": null,
+    "source_ids": [
+      "bfda_1971_schedule_1",
+      "aeroxuk_blog_post"
+    ],
+    "verified": false
+  }
+]

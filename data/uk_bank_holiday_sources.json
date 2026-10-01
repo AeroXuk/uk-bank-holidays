@@ -1,0 +1,58 @@
+[
+  {
+    "source_id": "bfda_1971",
+    "title": "Banking and Financial Dealings Act 1971",
+    "publisher": "legislation.gov.uk",
+    "url": "https://www.legislation.gov.uk/ukpga/1971/80",
+    "archive_url": null,
+    "accessed": null
+  },
+  {
+    "source_id": "bfda_1971_schedule_1",
+    "title": "Banking and Financial Dealings Act 1971, Schedule 1: Bank holidays and public holidays",
+    "publisher": "legislation.gov.uk",
+    "url": "https://www.legislation.gov.uk/ukpga/1971/80/schedule/1",
+    "archive_url": null,
+    "accessed": null
+  },
+  {
+    "source_id": "govuk_bank_holidays",
+    "title": "UK bank holidays",
+    "publisher": "GOV.UK",
+    "url": "https://www.gov.uk/bank-holidays",
+    "archive_url": null,
+    "accessed": null
+  },
+  {
+    "source_id": "govuk_bank_holidays_json",
+    "title": "UK bank holidays (JSON feed)",
+    "publisher": "GOV.UK",
+    "url": "https://www.gov.uk/bank-holidays.json",
+    "archive_url": null,
+    "accessed": null
+  },
+  {
+    "source_id": "wikipedia_computus",
+    "title": "Computus: Anonymous Gregorian algorithm (Meeus/Jones/Butcher)",
+    "publisher": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Computus#Anonymous_Gregorian_algorithm",
+    "archive_url": null,
+    "accessed": null
+  },
+  {
+    "source_id": "meeus_astronomical_algorithms",
+    "title": "Jean Meeus, Astronomical Algorithms (2nd ed., 1998), chapter 8: Date of Easter",
+    "publisher": "Willmann-Bell",
+    "url": null,
+    "archive_url": null,
+    "accessed": null
+  },
+  {
+    "source_id": "aeroxuk_blog_post",
+    "title": "UK Bank Holidays (original blog post this dataset was transcribed from)",
+    "publisher": "aerox.uk",
+    "url": "https://aerox.uk/2019/04/02/UK-Bank-Holidays/",
+    "archive_url": null,
+    "accessed": null
+  }
+]

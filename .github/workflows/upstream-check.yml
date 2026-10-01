@@ -1,0 +1,23 @@
+name: Upstream check
+
+# Compares the generated dates with the GOV.UK feed and checks the cited links still resolve.
+# A failure shows up in the Actions tab; nothing is changed automatically.
+on:
+  schedule:
+    - cron: "17 5 * * 1"
+  workflow_dispatch:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -e .
+      - name: Compare with the GOV.UK feed (2010 onwards)
+        run: python -m uk_bank_holidays validate --compare-govuk
+      - name: Cited links still resolve
+        run: python -m uk_bank_holidays check-links

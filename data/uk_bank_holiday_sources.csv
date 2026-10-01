@@ -1,0 +1,8 @@
+source_id,title,publisher,url,archive_url,accessed
+bfda_1971,Banking and Financial Dealings Act 1971,legislation.gov.uk,https://www.legislation.gov.uk/ukpga/1971/80,,
+bfda_1971_schedule_1,"Banking and Financial Dealings Act 1971, Schedule 1: Bank holidays and public holidays",legislation.gov.uk,https://www.legislation.gov.uk/ukpga/1971/80/schedule/1,,
+govuk_bank_holidays,UK bank holidays,GOV.UK,https://www.gov.uk/bank-holidays,,
+govuk_bank_holidays_json,UK bank holidays (JSON feed),GOV.UK,https://www.gov.uk/bank-holidays.json,,
+wikipedia_computus,Computus: Anonymous Gregorian algorithm (Meeus/Jones/Butcher),Wikipedia,https://en.wikipedia.org/wiki/Computus#Anonymous_Gregorian_algorithm,,
+meeus_astronomical_algorithms,"Jean Meeus, Astronomical Algorithms (2nd ed., 1998), chapter 8: Date of Easter",Willmann-Bell,,,
+aeroxuk_blog_post,UK Bank Holidays (original blog post this dataset was transcribed from),aerox.uk,https://aerox.uk/2019/04/02/UK-Bank-Holidays/,,
