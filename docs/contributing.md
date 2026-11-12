@@ -42,3 +42,5 @@ calculation, and add a test if you introduce a new rule type.
 
 CI runs `ruff`, `pytest`, and regenerates `data/`, `sql/` and `docs/generated/`, failing if anything changed. A weekly
 workflow compares the output with the GOV.UK feed and checks that source and archive links still resolve.
+The comparison covers each division's first through last available feed years, starting no earlier than 2010;
+it assumes those years are complete, and cannot verify earlier or later years.

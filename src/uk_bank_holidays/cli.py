@@ -71,7 +71,7 @@ def build_parser() -> argparse.ArgumentParser:
         nargs="?",
         const=validate.GOVUK_URL,
         metavar="URL_OR_FILE",
-        help="compare 2010 onwards with the GOV.UK bank-holidays.json feed",
+        help="compare available feed years from 2010 onwards with GOV.UK bank-holidays.json",
     )
 
     dc = sub.add_parser("docs", help="regenerate docs/generated from the source data")
