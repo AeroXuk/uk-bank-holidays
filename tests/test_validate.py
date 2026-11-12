@@ -52,6 +52,31 @@ def test_compare_with_govuk_feed(data):
     assert len(differences) == 2
 
 
+def test_compare_with_rolling_govuk_feed(data):
+    from uk_bank_holidays.generate import build_rows
+
+    rows = build_rows(data, 2019, 2021)
+    starts = {"england_and_wales": 2019, "scotland": 2020, "northern_ireland": 2021}
+    feed = {
+        division: {
+            "events": [
+                {"date": r["holiday_date"]} for r in rows if r[region] and int(r["holiday_date"][:4]) >= starts[region]
+            ]
+        }
+        for region, division in validate.GOVUK_DIVISIONS.items()
+    }
+    assert validate.compare_govuk(data, feed) == []
+    assert validate.compare_govuk(data, feed, from_year=2022) == []
+
+    feed["scotland"]["events"].pop(0)
+    feed["northern-ireland"]["events"].append({"date": "2021-02-02"})
+    differences = validate.compare_govuk(data, feed)
+    assert differences == [
+        "scotland: 2020-01-01 generated but not in GOV.UK feed",
+        "northern_ireland: 2021-02-02 in GOV.UK feed but not generated",
+    ]
+
+
 def test_archive_links_fill_missing_only():
     sources = {
         "a": {"title": "A", "publisher": "", "url": "https://example.org/a", "archive_url": None, "accessed": None},

@@ -110,15 +110,16 @@ def load_govuk(location: str | None = None) -> dict:
 
 
 def compare_govuk(data: dict, feed: dict, from_year: int = 2010) -> list[str]:
-    """Differences between our generated dates and the GOV.UK feed, per region."""
+    """Compare dates within each division's available years, starting no earlier than from_year."""
     differences = []
     for region, division in GOVUK_DIVISIONS.items():
         events = feed[division]["events"]
         theirs = {e["date"] for e in events if int(e["date"][:4]) >= from_year}
         if not theirs:
             continue
+        first = min(int(d[:4]) for d in theirs)
         last = max(int(d[:4]) for d in theirs)
-        ours = {r["holiday_date"] for r in build_rows(data, from_year, last) if r[region]}
+        ours = {r["holiday_date"] for r in build_rows(data, first, last) if r[region]}
         for d in sorted(ours - theirs):
             differences.append(f"{region}: {d} generated but not in GOV.UK feed")
         for d in sorted(theirs - ours):
