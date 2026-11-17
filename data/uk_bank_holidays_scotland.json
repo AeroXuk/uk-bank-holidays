@@ -12521,6 +12521,18 @@
     ]
   },
   {
+    "holiday_date": "2026-06-15",
+    "rule_id": "world_cup_bank_holiday_2026",
+    "holiday_key": "world_cup_bank_holiday_2026",
+    "holiday_name": "World Cup bank holiday",
+    "holiday_type": "proclamation",
+    "is_substitute": false,
+    "notes": "A one-off bank holiday in Scotland for the 2026 FIFA World Cup",
+    "source_ids": [
+      "scotgov_world_cup_bank_holiday_2026"
+    ]
+  },
+  {
     "holiday_date": "2026-08-03",
     "rule_id": "august_bank_holiday_scotland",
     "holiday_key": "august_bank_holiday",

@@ -160,5 +160,19 @@
       "bfda_1971"
     ],
     "verified": false
+  },
+  {
+    "proclamation_id": "world_cup_bank_holiday_2026",
+    "date": "2026-06-15",
+    "name": "World Cup bank holiday",
+    "reason": "A one-off bank holiday in Scotland for the 2026 FIFA World Cup",
+    "england_and_wales": false,
+    "scotland": true,
+    "northern_ireland": false,
+    "notes": "Scotland only.",
+    "source_ids": [
+      "scotgov_world_cup_bank_holiday_2026"
+    ],
+    "verified": true
   }
 ]

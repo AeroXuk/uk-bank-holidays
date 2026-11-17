@@ -11,3 +11,4 @@
 | `wikipedia_computus` | Computus: Anonymous Gregorian algorithm (Meeus/Jones/Butcher) | Wikipedia | <https://en.wikipedia.org/wiki/Computus#Anonymous_Gregorian_algorithm> | not yet archived |
 | `meeus_astronomical_algorithms` | Jean Meeus, Astronomical Algorithms (2nd ed., 1998), chapter 8: Date of Easter | Willmann-Bell | (offline source) | not yet archived |
 | `aeroxuk_blog_post` | UK Bank Holidays (original blog post this dataset was transcribed from) | aerox.uk | <https://aerox.uk/2019/04/02/UK-Bank-Holidays/> | not yet archived |
+| `scotgov_world_cup_bank_holiday_2026` | World Cup bank holiday confirmed | Scottish Government | <https://www.gov.scot/news/world-cup-bank-holiday-confirmed/> | [2026-11-17](https://web.archive.org/web/20260205162757/https://www.gov.scot/news/world-cup-bank-holiday-confirmed/) |
