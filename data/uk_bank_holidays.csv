@@ -1621,6 +1621,7 @@ holiday_date,rule_id,holiday_key,holiday_name,holiday_type,england_and_wales,sco
 2026-04-06,easter_monday,easter_monday,Easter Monday,recurring,true,false,true,false,,aeroxuk_blog_post;bfda_1971_schedule_1
 2026-05-04,may_day,may_day,May Day Bank Holiday,recurring,true,true,true,false,,aeroxuk_blog_post;bfda_1971_schedule_1
 2026-05-25,spring_bank_holiday,spring_bank_holiday,Spring Bank Holiday,recurring,true,true,true,false,,aeroxuk_blog_post;bfda_1971_schedule_1
+2026-06-15,world_cup_bank_holiday_2026,world_cup_bank_holiday_2026,World Cup bank holiday,proclamation,false,true,false,false,A one-off bank holiday in Scotland for the 2026 FIFA World Cup,scotgov_world_cup_bank_holiday_2026
 2026-07-13,battle_of_the_boyne,battle_of_the_boyne,Battle of the Boyne,recurring,false,false,true,true,Substitute for 2026-07-12,aeroxuk_blog_post;bfda_1971_schedule_1
 2026-08-03,august_bank_holiday_scotland,august_bank_holiday,August Bank Holiday,recurring,false,true,false,false,Continues unchanged for Scotland.,aeroxuk_blog_post;bfda_1971_schedule_1
 2026-08-31,late_summer_bank_holiday,late_summer_bank_holiday,Late Summer Bank Holiday,recurring,true,false,true,false,,aeroxuk_blog_post;bfda_1971_schedule_1

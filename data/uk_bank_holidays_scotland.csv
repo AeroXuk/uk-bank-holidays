@@ -962,6 +962,7 @@ holiday_date,rule_id,holiday_key,holiday_name,holiday_type,is_substitute,notes,s
 2026-04-03,good_friday,good_friday,Good Friday,recurring,false,,aeroxuk_blog_post;bfda_1971_schedule_1
 2026-05-04,may_day,may_day,May Day Bank Holiday,recurring,false,,aeroxuk_blog_post;bfda_1971_schedule_1
 2026-05-25,spring_bank_holiday,spring_bank_holiday,Spring Bank Holiday,recurring,false,,aeroxuk_blog_post;bfda_1971_schedule_1
+2026-06-15,world_cup_bank_holiday_2026,world_cup_bank_holiday_2026,World Cup bank holiday,proclamation,false,A one-off bank holiday in Scotland for the 2026 FIFA World Cup,scotgov_world_cup_bank_holiday_2026
 2026-08-03,august_bank_holiday_scotland,august_bank_holiday,August Bank Holiday,recurring,false,Continues unchanged for Scotland.,aeroxuk_blog_post;bfda_1971_schedule_1
 2026-11-30,st_andrews_day,st_andrews_day,St. Andrew's Day,recurring,false,,aeroxuk_blog_post;bfda_1971_schedule_1
 2026-12-25,christmas_day,christmas_day,Christmas Day,recurring,false,,aeroxuk_blog_post;bfda_1971_schedule_1
